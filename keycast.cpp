@@ -655,7 +655,7 @@ void loadSettings() {
     }
     tcModifiers = GetPrivateProfileInt(L"KeyCastOW", L"tcModifiers", MOD_ALT, iniFile);
     tcKey = GetPrivateProfileInt(L"KeyCastOW", L"tcKey", 0x42, iniFile);
-    GetPrivateProfileString(L"KeyCastOW", L"branding", L"Hi there, press any key to try, double click to configure.", branding, BRANDINGMAX, iniFile);
+    GetPrivateProfileString(L"KeyCastOW", L"branding", L"\u6309\u4efb\u4f55\u952e\u5373\u53ef\u4f7f\u7528\uff0c\u53cc\u51fb\u6b64\u5904\u5373\u53ef\u8fdb\u5165\u914d\u7f6e\u9875\u3002", branding, BRANDINGMAX, iniFile);
     GetPrivateProfileString(L"KeyCastOW", L"comboChars", L"<->", comboChars, 4, iniFile);
     memset(&labelSettings.font, 0, sizeof(labelSettings.font));
     labelSettings.font.lfCharSet = DEFAULT_CHARSET;

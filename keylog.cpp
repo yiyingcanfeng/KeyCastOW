@@ -135,7 +135,7 @@ struct Key specialKeys[] = {
 size_t nSpecialKeys = sizeof(specialKeys) / sizeof(Key);
 
 LPCWSTR mouseActions[] = {
-    L"MouseMove",
+    L"MouseMove", 
     L"LButtonDown",
     L"LButtonUp",
     L"LButtonDBLCLK",
@@ -145,21 +145,21 @@ LPCWSTR mouseActions[] = {
     L"MButtonDown",
     L"MButtonUp",
     L"MButtonDBLCLK",
-    L"MouseWheel",
+    L"\u9f20\u6807\u6eda\u8f6e", // 鼠标滚轮
     L"XButtonDown",
     L"XButtonUp",
     L"XButtonDBLCLK",
     L"MouseHWheel"
 };
 LPCWSTR mouseClicks[] = {
-    L"LClick",
-    L"RClick",
-    L"MClick"
+    L"\u9f20\u6807\u5de6\u952e\u5355\u51fb", // 鼠标左键单击
+    L"\u9f20\u6807\u53f3\u952e\u5355\u51fb", // 鼠标右键单击
+    L"\u9f20\u6807\u4e2d\u952e\u5355\u51fb" // 鼠标中键单击
 };
 LPCWSTR mouseDblClicks[] = {
-    L"LDblClick",
-    L"RDblClick",
-    L"MDblClick"
+    L"\u9f20\u6807\u5de6\u952e\u53cc\u51fb", // 鼠标左键双击
+    L"\u9f20\u6807\u53f3\u952e\u53cc\u51fb", // 鼠标右键双击
+    L"\u9f20\u6807\u4e2d\u952e\u53cc\u51fb" // 鼠标中键双击
 };
 
 size_t nMouseActions = sizeof(mouseActions) / sizeof(LPCWSTR);
